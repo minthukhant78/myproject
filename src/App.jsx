@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import { About, Hero, Navbar, Contact,StarsCanvas,Experience,Feedbacks, Tech, Works } from "./components";
 
-function App() {
+const App =() => {
 
   return (
     <BrowserRouter>
